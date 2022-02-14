@@ -10,7 +10,8 @@ export function Projects() {
         <div className="proj">
           <h3>Login and SignUp Page</h3>
           <p>Login,SignUp and forgot password with Email Verification.</p>
-          <h3>Technologies Used: React.js,Node.js,Express.js,Mongodb</h3>
+          <h3>Technologies Used:</h3>
+          <p>React.js, Node.js, Express.js, Mongodb</p>
         </div>
         {/* <img src=""></img> */}
         <div className="open-button">
