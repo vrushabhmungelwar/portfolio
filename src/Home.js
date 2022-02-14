@@ -8,7 +8,7 @@ export function Home() {
       <h2>I am a Full-Stack Developer</h2>
       <Button
         href="https://drive.google.com/file/d/1jmuhJlK80jx8-zlrsNOA0qQewRGTFvap/view"
-        color="info"
+        color="warning"
         variant="contained"
         target="_blank"
       >
