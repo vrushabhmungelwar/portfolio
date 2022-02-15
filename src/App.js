@@ -41,6 +41,7 @@ function App() {
                 mr: 2,
                 display: { xs: "none", md: "flex" },
                 color: "white",
+                fontFamily: "initial",
               }}
             >
               Vrushabh Mungelwar
@@ -56,6 +57,7 @@ function App() {
                   flexGrow: 1,
                   display: { xs: "flex", md: "none" },
                   color: "white",
+                  fontFamily: "initial",
                 }}
               >
                 Vrushabh Mungelwar

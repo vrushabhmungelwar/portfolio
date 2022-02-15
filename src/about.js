@@ -2,6 +2,12 @@ import img from "./image/html.png";
 import css from "./image/css.png";
 import js from "./image/js.svg";
 import git from "./image/git.png";
+import bootstrap from "./image/bootstrap.png";
+import mui from "./image/mui.png";
+import react from "./image/react.png";
+import node from "./image/node.jpeg";
+import express from "./image/express.jpg";
+import mongo from "./image/mongo.png";
 
 export function About() {
   return (
@@ -31,6 +37,36 @@ export function About() {
         <div className="skills">
           <img src={git} alt="git" className="img"></img>
           <h3 className="skill-tag">Git</h3>
+        </div>
+
+        <div className="skills">
+          <img src={bootstrap} alt="bootstrap" className="img"></img>
+          <h3 className="skill-tag">Bootstrap</h3>
+        </div>
+
+        <div className="skills">
+          <img src={mui} alt="mui" className="img"></img>
+          <h3 className="skill-tag">Material UI</h3>
+        </div>
+
+        <div className="skills">
+          <img src={react} alt="react" className="img"></img>
+          <h3 className="skill-tag">ReactJS</h3>
+        </div>
+
+        <div className="skills">
+          <img src={node} alt="node" className="img"></img>
+          <h3 className="skill-tag">NodeJS</h3>
+        </div>
+
+        <div className="skills">
+          <img src={express} alt="express" className="img"></img>
+          <h3 className="skill-tag">ExpressJS</h3>
+        </div>
+
+        <div className="skills">
+          <img src={mongo} alt="mongo" className="img"></img>
+          <h3 className="skill-tag">MongoDB</h3>
         </div>
       </div>
     </div>

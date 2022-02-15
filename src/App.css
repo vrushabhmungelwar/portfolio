@@ -7,6 +7,7 @@
   overflow-y: hidden;
 }
 .Home-cont {
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 7%;
   margin-left: 3%;
   color: white;
@@ -17,6 +18,7 @@
   align-content: flex-start;
 }
 .about-cont {
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 7%;
   margin-left: 3%;
   color: white;
@@ -68,7 +70,7 @@
   flex-direction: row;
 }
 .skills {
-  margin-right: 1rem;
+  margin: 1rem;
 }
 .img {
   height: 70px;
