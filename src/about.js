@@ -26,14 +26,17 @@ export function About() {
           <img src={img} alt="html" className="img"></img>
           <h3 className="skill-tag">Html</h3>
         </div>
+
         <div className="skills">
           <img src={css} alt="css" className="img"></img>
           <h3 className="skill-tag">CSS</h3>
         </div>
+
         <div className="skills">
           <img src={js} alt="js" className="img"></img>
           <h3 className="skill-tag">JavaScript</h3>
         </div>
+
         <div className="skills">
           <img src={git} alt="git" className="img"></img>
           <h3 className="skill-tag">Git</h3>
@@ -50,13 +53,8 @@ export function About() {
         </div>
 
         <div className="skills">
-          <img src={react} alt="react" className="img"></img>
-          <h3 className="skill-tag">ReactJS</h3>
-        </div>
-
-        <div className="skills">
-          <img src={node} alt="node" className="img"></img>
-          <h3 className="skill-tag">NodeJS</h3>
+          <img src={mongo} alt="mongo" className="img"></img>
+          <h3 className="skill-tag">MongoDB</h3>
         </div>
 
         <div className="skills">
@@ -65,8 +63,13 @@ export function About() {
         </div>
 
         <div className="skills">
-          <img src={mongo} alt="mongo" className="img"></img>
-          <h3 className="skill-tag">MongoDB</h3>
+          <img src={react} alt="react" className="img"></img>
+          <h3 className="skill-tag">ReactJS</h3>
+        </div>
+
+        <div className="skills">
+          <img src={node} alt="node" className="img"></img>
+          <h3 className="skill-tag">NodeJS</h3>
         </div>
       </div>
     </div>
