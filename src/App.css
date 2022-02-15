@@ -46,7 +46,6 @@
   flex-wrap: wrap;
   align-content: flex-start;
 
-
   position: relative;
   animation-name: example;
   animation-duration: 0.8s;
@@ -61,8 +60,6 @@
   align-items: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
-
-
 
   position: relative;
   animation-name: example;
@@ -101,6 +98,8 @@
 .skills-cont {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .skills {
   margin: 1rem;

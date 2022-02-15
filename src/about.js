@@ -16,7 +16,7 @@ export function About() {
       <h3>Hello, My Name is Vrushabh Mungelwar.</h3>
       <p className="paragraph">
         I am a Bsc Graduate from Chandrapur, Maharashtra, India.<br></br>I am a
-        MERN-Stack Developer and i love to create web apps<br></br> that would
+        MERN-Stack Developer and I love to create web apps<br></br> that would
         make life easy and enjoyable for people.
       </p>
       <p className="paragraph">Currently, I am looking for a Job.</p>
