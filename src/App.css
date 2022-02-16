@@ -26,7 +26,7 @@
 
 @keyframes example {
   from {
-    top: 200px;
+    top: 100px;
     opacity: 0;
   }
   to {
@@ -75,6 +75,12 @@
   width: 100%;
   background-color: rgb(63, 58, 58);
   border-radius: 5px;
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.8s;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
 }
 
 .proj {
@@ -94,13 +100,34 @@
   font-size: x-large;
   text-align: start;
   margin-bottom: 0;
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.8s;
+  animation-delay: 0.8;
+  animation-fill-mode: both;
+}
+
+.skills-head {
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.8s;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
 }
 .skills-cont {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.8s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
 }
+
 .skills {
   margin: 1rem;
 }

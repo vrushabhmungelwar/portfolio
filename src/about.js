@@ -20,7 +20,7 @@ export function About() {
         make life easy and enjoyable for people.
       </p>
       <p className="paragraph">Currently, I am looking for a Job.</p>
-      <h3>Skills:</h3>
+      <h3 className="skills-head">Skills:</h3>
       <div className="skills-cont">
         <div className="skills">
           <img src={img} alt="html" className="img"></img>
