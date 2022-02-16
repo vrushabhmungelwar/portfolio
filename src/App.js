@@ -36,7 +36,6 @@ function App() {
             <h3 className="logo">Vrushabh Mungelwar</h3>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-              <h3 className="logo">Vrushabh Mungelwar</h3>
               <IconButton
                 size="large"
                 aria-label="account of current user"
