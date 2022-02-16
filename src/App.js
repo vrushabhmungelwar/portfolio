@@ -33,8 +33,12 @@ function App() {
       <AppBar position="static" color="transparent">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <h3 className="logo">Vrushabh Mungelwar</h3>
-
+            <Button
+              sx={{ margin: 0, padding: 0 }}
+              onClick={() => history.push("/")}
+            >
+              <h3 className="logo">Vrushabh Mungelwar</h3>
+            </Button>
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
