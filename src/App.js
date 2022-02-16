@@ -33,36 +33,10 @@ function App() {
       <AppBar position="static" color="transparent">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{
-                mr: 2,
-                display: { xs: "none", md: "flex" },
-                color: "white",
-                fontFamily: "initial",
-              }}
-            >
-              Vrushabh Mungelwar
-            </Typography>
+            <h3 className="logo">Vrushabh Mungelwar</h3>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-              <Typography
-                variant="h6"
-                noWrap
-                component="div"
-                sx={{
-                  mt: 1,
-                  flexGrow: 1,
-                  display: { xs: "flex", md: "none" },
-                  color: "white",
-                  fontFamily: "initial",
-                }}
-              >
-                Vrushabh Mungelwar
-              </Typography>
-
+              <h3 className="logo">Vrushabh Mungelwar</h3>
               <IconButton
                 size="large"
                 aria-label="account of current user"
