@@ -1,13 +1,13 @@
-import img from "./image/html.png";
-import css from "./image/css.png";
-import js from "./image/js.svg";
-import git from "./image/git.png";
-import bootstrap from "./image/bootstrap.png";
-import mui from "./image/mui.png";
-import react from "./image/react.png";
-import node from "./image/node.jpeg";
-import express from "./image/express.jpg";
-import mongo from "./image/mongo.png";
+import img from "../image/html.png";
+import css from "../image/css.png";
+import js from "../image/js.svg";
+import git from "../image/git.png";
+import bootstrap from "../image/bootstrap.png";
+import mui from "../image/mui.png";
+import react from "../image/react.png";
+import node from "../image/node.jpeg";
+import express from "../image/express.jpg";
+import mongo from "../image/mongo.png";
 
 export function About() {
   return (

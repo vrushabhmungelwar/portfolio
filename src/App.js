@@ -11,9 +11,9 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { Route, Switch, useHistory } from "react-router-dom";
 import { useState } from "react";
-import { About } from "./about";
-import { Home } from "./Home";
-import { Projects } from "./projects";
+import { About } from "./routes/about";
+import { Home } from "./routes/Home";
+import { Projects } from "./routes/projects";
 
 function App() {
   const history = useHistory();
