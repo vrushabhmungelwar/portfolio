@@ -61,6 +61,32 @@ export function Projects() {
           </div>
         </div>
       </div>
+
+      <div className="projects">
+        <div className="proj">
+          <h3>Protected Routes & JWT Authentication</h3>
+          <h3>Technologies Used:</h3>
+          <p>React.js, Node.js, Express.js, Mongodb</p>
+        </div>
+        <div className="open-button">
+          <div>
+            <IconButton
+              href="https://optimistic-goldstine-cb5efc.netlify.app"
+              target={"_blank"}
+            >
+              <OpenInNewIcon color="warning" fontSize="large" />
+            </IconButton>
+          </div>
+          <div>
+            <IconButton
+              href="https://github.com/vrushabhmungelwar/protected-routes.git"
+              target={"_blank"}
+            >
+              <GitHubIcon color="warning" fontSize="large" />
+            </IconButton>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
